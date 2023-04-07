@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/gulp",
+    "dev": "node_modules\\.bin\\gulp",
     "serve": "nodemon --watch templates --watch assets -e js,ejs,less,css app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
