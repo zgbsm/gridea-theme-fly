@@ -5,25 +5,25 @@
 <meta name="description" content="<%= themeConfig.siteDescription %>">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="/styles/animate.min.css">
+<link rel="stylesheet" href="/media/css/animate.min.css">
 
-<link rel="stylesheet" href="/styles/all.css">
+<link rel="stylesheet" href="/media/css/all.css">
 <link rel="shortcut icon" href="<%= themeConfig.domain %>/favicon.ico?v=<%= site.utils.now %>">
-<link rel="stylesheet" href="/styles/katex.min.css">
+<link rel="stylesheet" href="/media/css/katex.min.css">
 <link rel="stylesheet" href="<%= themeConfig.domain %>/styles/main.css">
 
 <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
   <% if (commentSetting.commentPlatform === 'gitalk') { %>
-    <link rel="stylesheet" href="/styles/gitalk.css" />
+    <link rel="stylesheet" href="/media/css/gitalk.css" />
   <% } %>
 
   <% if (commentSetting.commentPlatform === 'disqus') { %>
-    <link rel="stylesheet" href="/styles/disqusjs.css" />
+    <link rel="stylesheet" href="/media/css/disqusjs.css" />
   <% } %>
 <% } %>
 
-<script src="/styles/vue.js"></script>
-<script src="/styles/highlight.min.js"></script>
+<script src="/media/js/vue.js"></script>
+<script src="/media/js/highlight.min.js"></script>
 
 <% if (site.customConfig.ga) { %>
 <script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
